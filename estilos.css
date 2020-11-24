@@ -1,0 +1,17 @@
+body {
+  background: #F2F2F2;
+  font-family: SF Pro Display;
+  color: #2F4959;
+
+}
+
+th,
+td {
+  padding: 5px 30px 5px 10px;
+  border-spacing: 0px;
+  font-size: 90%;
+  margin: 0px;
+}
+#titulo-uno{
+  font: black;
+}

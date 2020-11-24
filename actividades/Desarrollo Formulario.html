@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Desarrollo Formulario</title>
+</head>
+
+<body>
+
+  <fieldset>
+    <legend>Datos de contacto: </legend>
+    <form action="http://www.example.com/login.php"></form>
+    <p>Nombre:
+      <input type="text" name="username" size="15" maxlength="30" />
+    </p>
+    <p>Email:
+      <input type="password" name="password" size="15" maxlength="30" />
+    </p>
+  </fieldset>
+
+  <fieldset>
+    <legend>Su opinion: </legend>
+    <form action="http://www.example.com/profile.php">
+      <p>
+        ¿Como se Enteraron de Nosostros?
+      </p>
+      <select name="navegador">
+        <option value="google"> google </option>
+        <option value="microsoft edge"> microsoft edge </option>
+
+      </select>
+    </form>
+
+    <p>
+      voveria a visitarnos?:
+      <br />
+      <input type="radio" name="genre" value="SI" checked="checked" /> Si
+      <input type="radio" name="genre" value="NO" /> No
+      <input type="radio" name="genre" value="Quizas" /> Quizas
+    </p>
+    <form action="http://www.example.com/comments.php">
+      <P>Comentarios</p>
+      <textarea name=" comments" cols="20" rows="4">Ingrese sus comentarios ...</textarea>
+    </form>
+    <p>
+      Suscribete a nuestra lista de correo electronico:
+    </p>
+    <input tyz="text" name="email" />
+    <input type="submit" name="subscribe" value="subscribe" />
+    </form>
+  </fieldset>
+  </form>
+
+
+</body>
+
+</html>
