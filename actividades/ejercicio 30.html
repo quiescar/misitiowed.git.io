@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ejemplo 027</title>
+  <script lang="javascript" type="text/javascript">
+    var D1 = 0.1; D1.toFixed(2);
+    var D2 = 0.2; D2.toFixed(2);
+    var D3 = 0.2; D3.toFixed(2);
+    var IGV = 0.19; IGV.toFixed(2);
+    var num, m_d_igv, p;
+    num = prompt("Ingrese el valor del consumo:");
+    num = parseFloat(num); var c = num.toFixed();
+    if (c <= 200) {
+      m_d = c * D3;
+    } else {
+      if (c > 100) {
+        m_d = c * D2;
+      } else {
+        m_d = c * D1;
+      }
+    }
+    m_igv = (c - m_d) * IGV;
+    p = c - m_d + m_igv;
+
+    alert("Monto Descuento: " + m_d + "\nImpuesto IGV: " + m_igv + "\nImporte a pagar: " + p);
+  </script>
+</head>
+
+<body>
+  <p> Parrafo Ejercicio 030</p>
+  <p> Programa en javascript para calcular el descuento del 10% en comsumos hasta 100, descuento del 20% en consumos
+    mayores a 100 y menores a 200; ymenores200, y 30% a mayores de 300.</p>
+
+</body>
+
+</html>

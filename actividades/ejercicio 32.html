@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ejemplo 032</title>
+  <script lang="javascript" type="text/javascript">
+    var DESC_G = 0.15; DESC_G.toFixed(2);
+    var DESC_A = 0.2; DESC_A.toFixed(2);
+    var REC_G = 0.1; REC_G.toFixed(2);
+    var REC_A = 0.05; REC_A.toFixed(2);
+    var mc, m = 0, tp = 0;
+    mc = prompt("ingrese el monto de compra:");
+    mc = parseFloat(mc);
+    m = parseFloat(m);
+    tp = parseFloat(m);
+    var tc, fp, r;
+    tc = prompt("tipo de cliente G general o A afiliado: ");
+    fp = prompt("Forma de pago C credito E efectivo: ");
+    if (tc == 'G' || tc == 'g')
+      if (fp == 'C' || fp == 'c') {
+        m = mc * DESC_G;
+        tp = mc - m;
+        r = "DESCUENTO 15%";
+      } else {
+        m = mc * REC_G;
+        tp = mc + m;
+        r = "DESCUENTO 10%";
+      } else {
+      if (fp == 'C' || fp == 'c') {
+        m = mc * DESC_A;
+        tp = mc - m;
+        r = "DESCUENTO 20%";
+      } else {
+        m = mc * REC_A;
+        tp = mc + m;
+        r = "RECARGO 5%";
+      }
+    }
+
+
+    alert(r + ": " + m + "\nTotal a pagar:" + tp);
+  </script>
+</head>
+
+<body>
+  <p> Parrafo Ejercicio 032</p>
+  <p> Programa en javascript para ingresar una compra y dependiendo del monto obtener un descuento Cliente General 15%,
+    recargo 10%, Cliente Afiliado 20%, Rercargo 5%
+  </p>
+
+</body>
+
+</html>

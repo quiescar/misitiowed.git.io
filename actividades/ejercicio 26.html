@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ejemplo 025</title>
+  <script lang="javascript" type="text/javascript">
+    var n1 = 0, n2 = 0, n3 = 0, m = 0;
+    n1 = prompt("Ingrese el numero 1:");
+    n2 = prompt("Ingrese el numero 2:");
+    n3 = prompt("Ingrese el numero 3:");
+    n1 = parseInt(n1);
+    n2 = parseInt(n2);
+    n3 = parseInt(n3);
+    if (n1 > n2) {
+      if (n1 > n3) {
+        m = n1;
+      } else {
+        m = n3;
+      }
+    } else {
+      if (n2 > n3) {
+        m = n2;
+      }
+      else {
+        m = n3;
+      }
+    }
+    alert("El numero Mayor es: " + m);
+  </script>
+</head>
+
+<body>
+  <p> Parrafo Ejercicio 025</p>
+  <p> programa en javascript para compara tres numeros y devolver el numero de mayor valor</p>
+
+</body>
+
+</html>

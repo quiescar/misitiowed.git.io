@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ejemplo 044</title>
+  <script lang="javascript" type="text/javascript">
+    var edad;
+    edad = prompt('Por favor ingresa tu edad: ');
+    if (edad == "") {
+      alert('No has ingresado una edad');
+    }
+    edad = Number(edad);
+    switch (edad) {
+      case 0:
+        alert("Acaba de nacer. No has cumplido un año");
+        break;
+      case 18:
+        alert("Está justo en la mayoria de edad");
+        break;
+      case 65:
+        alert("Está en la edad de jubilación");
+        break;
+      default:
+        alert("La edad no es critica");
+        break;
+    }
+    alert('Resultado: ' + res);
+  </script>
+</head>
+
+<body>
+  <p> Parrafo Ejercicio 044</p>
+  <p> Programa en javascript para ingresar una edad
+    y obtener un estado
+  </p>
+
+</body>
+
+</html>

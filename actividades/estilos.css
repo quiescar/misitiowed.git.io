@@ -11,19 +11,19 @@ a:hover{
   color: black;
   padding: 5px;
 }
+
 h1{
   text-align: center
- }
-
+}
 
 th,
-td {
-  padding: 5px 20px 5px 20px;
-  border-spacing: 0px;
+th {
+  padding: 5px 25px 5px 25px;
+  border-spacing: 30px;
   font-size: 50xp;
-  margin: 0px;
+  margin: 10px;
   color: black;
-  background-color: rgb(129, 170, 248);
+  background-color: rgb(25, 37, 59);
 }
 #titulo{
   font: black;

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ejemplo 031</title>
+  <script lang="javascript" type="text/javascript">
+    var t = prompt("ingrese la temperatura actual:");
+    var c = "";
+    t = parseInt(t);
+    if (t < 10) {
+      c = "FRIO";
+    } else {
+      if (t >= 10 && t <= 20) {
+        c = "NUBLADO";
+      } else {
+        if (t >= 21 && t <= 30) {
+          c = "CALOR";
+        } else { c = "TROPICAL"; }
+      }
+    }
+    alert("Clima: " + c);
+  </script>
+</head>
+
+<body>
+  <p> Parrafo Ejercicio 031</p>
+  <p> Programa en javascript para ingresar una temperatura y calcular el clima menor a 10 = frio, entre 10 y 20 =
+    nublado,
+    entre 21 Y 30 = calor mayor = tropical
+  </p>
+
+</body>
+
+</html>
