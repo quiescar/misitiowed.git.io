@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Taller de musica</title>
+  <style type="text/css">
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      font-size: 90%;
+      color: rgb(0, 0, 0);
+      background-color: #dbd7d7;
+    }
+
+    li {
+      list-style-image: url("images/icon-plus.png");
+      line-height: 1.6em;
+    }
+
+    table {
+      border-spacing: 0px;
+    }
+
+    th,
+    td {
+      padding: 5px 30px 5px 10px;
+      border-spacing: 0px;
+      font-size: 90%;
+      margin: 0px;
+    }
+
+    th,
+    td {
+      text-align: left;
+      background-color: #e0e9f0;
+      border-top: 1px solid #flf8fe;
+      border-bottom: 1px solid #cbd2d8;
+      border-right: 1px solid #cbd2d8;
+    }
+
+    tr.head th {
+      color: #fff;
+      background-color: #b99726;
+      border-bottom: 2px solid #0a0a0a;
+      border-right: 1px solid #0a0a0a;
+      border-top: 1px solid #0a0a0a;
+      text-align: center;
+      text-shadow: -1px -1px 1px #b8c91f;
+      letter-spacing: 0.15em;
+    }
+
+    td {
+      text-shadow: 1px 1px 1px #050505;
+    }
+
+    tr.even td,
+    tr.even th {
+      background-color: #e8eff5;
+    }
+
+    tr.head th:first-child {
+      -webkit-border-top-left-radius: 5px;
+      -moz-border-radius-topleft: 5px;
+      border-top-left-radius: 5px;
+    }
+
+    tr.head th:last-child {
+      -webkit-border-top-right-radius: 5px;
+      -moz-border-radius-topright: 5px;
+      border-too-right-radius: 5px;
+    }
+
+    fieldset {
+      width: 310px;
+      margin-top: 20px;
+      border: 1px solid #d6d6d6;
+      background-color: #ffffff;
+      line-height: 1.6em;
+    }
+
+    legend {
+      font-style: italic;
+      color: #666666;
+    }
+
+    input[type="text"] {
+      width: 120px;
+      border: 1px solid #d6d6d6;
+      padding: 2px;
+      outline: none;
+    }
+
+    input[type="text"]:focus,
+    input[type="text"]:hover {
+      background-color: #d0e2f0;
+      border: 1px solid #999999;
+    }
+
+    input[type="submit"] {
+      border: 1px solid #666400;
+      background-color: #e7d914;
+      color: #ffffff;
+      border-radius: 5px;
+      padding: 5px;
+      margin-top: 10px;
+    }
+
+    input[type="submit"]:hover {
+      border: 1px solid #661d00;
+      background-color: #cc2900;
+      color: #ffffff;
+      cursor: pointer;
+    }
+
+    .tifie {
+      float: left;
+      width: 160px;
+      clear: left;
+    }
+
+    .submit {
+      width: 310px;
+      text-align: right;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Taller de musica</h1>
+  <h2> Clases semanales de música para bebés </h2>
+  <p>Clases dentro del horario escolar de Estimulación Musical. En ellas se desarrollan diferentes actividades como:
+    cantar, bailar, audiciones, ritmos, cuentos y movimiento .Con las actividades los niños desarrollan la creatividad,
+    el conocimiento del cuerpo y del entorno, aprenden a escuchar y a descubrir el mundo sonoro.
+    Están adaptadas a cada edad y tienen una estructura principal que se repite y crea una rutina que refuerza los
+    objetivos fundamentales del taller.</p>
+  <p>Las clases se dividen por edades según los grupos de cada escuela.
+    Nos adaptamos a cada centro y sus necesidades. Pregúntanos por nuestros Talleres de Música en Familia y Conciertos
+    Didácticos para días especiales o fin de semana..</p>
+
+  <h3>Talleres de música esporádicos para bebés</h3>
+  <p> Edades comprendidas entre los 0-3 años o 3-6 años , con diferentes temáticas, donde experimentaremos con melodías,
+    canciones, audiciones ritmos e instrumentos de pequeña percusión.
+    Siempre vamos acompañados de instrumentos, para disfrutar de todos los beneficios que genera escuchar música en
+    directo.
+    Los podemos realizar tanto en horario escolar como extraescolar.</p>
+
+
+  <table>
+    <tr class="head">
+      <th>
+      </th>
+      <th>Bogotá</th>
+      <th>Medellín</th>
+
+
+    </tr>
+    <tr>
+      <th>Para bebés</th>
+      <td>Duracion<br />3O Minutos</td>
+      <td>Duracion<br />3O Minutos</td>
+
+    </tr>
+    <tr class=”even”>
+      <th>Colegios</th>
+      <td>Duracion<br />5O Minutos</td>
+      <td>Duracion<br />4O Minutos</td>
+
+    </tr>
+    <tr>
+      <th>Familias</th>
+      <td>Duracion<br />2 horas</td>
+      <td>Duracion<br />1 Hora</td>
+
+
+  </table>
+  <form action="http://www.example.com/form.php" method="get">
+    <fieldset>
+      <legend>Contáctanos:</legend>
+      <pxlabel class="title" for="name">Nombre:</label>
+        <input type="text" name="name" id="name"><br />
+        <label class="title" for="email">E-mail:</label>
+        <input type="text" name="email" id="email"></p>
+        <pxlabel for="location" class="title">Su centro cercano:</label>
+          <select name="location" id="location">
+            <option value="ny">Bogotá</option>
+            <option value="ca">Medellín</option>
+          </select></p>
+          <span class="title">Es Miembro de la Comunidad?</span>
+          <labelxinput type="radio" name="member" value="yes" /> Si</label>
+          <labelxinput type=”radio” name="member" value="no" /> NO </label></p>
+    </fieldset>
+    <div class="submit"><input type="submit" value=”Enviar” />
+      <div>
+  </form>
+</body>
+
+</html>
